@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "echarts": "^5.3.3",
+    "vant": "^3.5.2",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
     "vuex": "^4.0.0"
@@ -29,7 +31,9 @@
     "eslint-plugin-vue": "^8.0.3",
     "less": "^4.0.0",
     "less-loader": "^8.0.0",
+    "naive-ui": "^2.31.0",
     "prettier": "^2.4.1",
-    "typescript": "~4.5.5"
+    "typescript": "~4.5.5",
+    "unplugin-vue-components": "^0.21.1"
   }
 }
