@@ -14,8 +14,8 @@ import * as echarts from "echarts";
 
 export default defineComponent({
   name: "HomeView",
-  components:{
-    [Skeleton.name]: Skeleton
+  components: {
+    [Skeleton.name]: Skeleton,
   },
   created() {
     Toast.loading({
@@ -59,5 +59,4 @@ export default defineComponent({
   width: 500px;
   height: 500px;
 }
-
 </style>
